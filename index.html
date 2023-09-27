@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .header {
+            text-align: center;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .image-slot {
+            width: 32%; /* (100% - 2% margin between images x 2) / 3 */
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .image-slot2 {
+            width: 50%; /* (100% - 2% margin between images x 2) / 3 */
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .image-slot {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Loh Kah Shun</h1>
+        <p>All about me</p>
+    </div>
+
+    <div class="section">
+        <h2>Personal Details</h2>
+        <p><strong>Email:</strong> kahshunloh@gmail.com</p>
+        <p>Age : 23</p>
+        <p>From : Langkawi</p>
+        <p>Sem : 4</p>
+
+    </div>
+
+<div class="image-slot2">
+    <img src="profile pic.jpg" alt="Description for Image 2">
+    
+</div>
+
+    <div class="section">
+        <h2>Interests</h2>
+        <p>1. Tech - computers and stuff 
+            <p>2. Finance/Invest </p><p>3. Manga</p><p>4. Anime</p> <p>5. Blockchain</p> <p>6. Developing random stuff</p>
+    </div>
+    <div class="section">
+        <h2>Academics</h2>
+        <p>IGCSE 2014-2019</p>
+        <p>A-levels 2019-2021</p>
+        <p>Sunway uni 2022-2024</p>
+    </div>
+    <div class="section">
+        <p>took a gap year after a-levels and now back into the trenches</p>
+    </div>
+    <div class="section">
+        <h2>Test results</h2>
+        <div class="images">
+            <div class="image-slot">
+                <img src="kekw2.png" alt="Description for Image 1">
+                
+            </div>
+            <div class="image-slot">
+                <img src="kek.png" alt="Description for Image 2">
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
